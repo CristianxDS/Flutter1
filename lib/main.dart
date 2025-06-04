@@ -12,7 +12,7 @@ class Entrega1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Cuerpo(),
-      debugShowCheckedModeBanner: false, // opcional, para ocultar el banner
+      debugShowCheckedModeBanner: false, 
     );
   }
 }
@@ -25,13 +25,12 @@ class Cuerpo extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text("Ejercicios")),
       body: Center(
-        child: btnEjercicio1(context), // Aquí llamamos al botón
+        child: btnEjercicio1(context), 
       ),
     );
   }
 }
 
-/// Este botón navega a la pantalla de Ejercicio1
 Widget btnEjercicio1(BuildContext context) {
   return ElevatedButton(
     onPressed: () {
